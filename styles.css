@@ -142,7 +142,9 @@ main div:nth-child(2) div:nth-child(2) form input[type=password] {
     border: 1px solid #e5e5e5;
 }
 
-main div:nth-child(2) div:nth-child(2) form input[type=text]:focus {
+main div:nth-child(2) div:nth-child(2) form input[type=text]:focus,
+main div:nth-child(2) div:nth-child(2) form input[type=email]:focus,
+main div:nth-child(2) div:nth-child(2) form input[type=password]:focus {
     border: 1px solid #88839c;
     outline: none;
 }
