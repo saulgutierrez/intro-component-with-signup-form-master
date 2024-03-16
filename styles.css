@@ -213,3 +213,25 @@ main div:nth-child(2) div:nth-child(2) div {
 main div:nth-child(2) div:nth-child(2) div span {
     color: #f68e93;
 }
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    main div:nth-child(1) {
+        height: 30vh;
+        justify-content: center;
+        width: 80%;
+    }
+
+    main div:nth-child(2) div:nth-child(1) {
+        width: 90%;
+    }
+
+    main div:nth-child(2) {
+        height: 50vh;
+        width: 90%;
+    }
+}
