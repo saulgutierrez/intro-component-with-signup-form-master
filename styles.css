@@ -229,6 +229,7 @@ main div:nth-child(2) div:nth-child(2) div span {
 
     main div:nth-child(1) h2 {
         font-size: 3rem;
+        text-align: center;
     }
 
     main div:nth-child(1) h3 {
