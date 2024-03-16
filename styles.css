@@ -132,6 +132,38 @@ main div:nth-child(2) div:nth-child(2) form .icon-4 {
     opacity: 0%;
 }
 
+.alert-1 {
+    position: absolute;
+    color: red !important;
+    right: 0;
+    top: 30px;
+    opacity: 0%;
+}
+
+.alert-2 {
+    position: absolute;
+    color: red !important;
+    right: 0;
+    top: 100px;
+    opacity: 0%;
+}
+
+.alert-3 {
+    position: absolute;
+    color: red !important;
+    right: 0;
+    top: 170px;
+    opacity: 0%;
+}
+
+.alert-4 {
+    position: absolute;
+    color: red !important;
+    right: 0;
+    top: 245px;
+    opacity: 0%;
+}
+
 main div:nth-child(2) div:nth-child(2) form input[type=text],
 main div:nth-child(2) div:nth-child(2) form input[type=email],
 main div:nth-child(2) div:nth-child(2) form input[type=password] {
