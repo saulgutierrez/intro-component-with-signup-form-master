@@ -255,6 +255,7 @@ main div:nth-child(2) div:nth-child(2) div span {
 
     main div:nth-child(1) {
         height: 20vh;
+        padding-bottom: 20px;
     }
 
     main div:nth-child(1) h2 {
