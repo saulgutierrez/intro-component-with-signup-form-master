@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/bg-intro-desktop.png') no-repeat;
+    background-color: hsl(0, 100%, 74%);
+}
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1060px;
+}
+
+main div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+}
+
+main div:nth-child(1) > h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 4.6rem;
+    line-height: 1.1;
+}
+
+main div:nth-child(1) > h3 {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #ffecec;
+}
+
+main div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    justify-content: space-between;
+    width: 500px;
+}
+
+main div:nth-child(2) div:nth-child(1) {
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 8px #dd6765;
+    flex-direction: row;
+    gap: 4px;
+    font-size: 0.9em;
+}
+
+main div:nth-child(2) div:nth-child(1) span {
+    font-weight: 700;
+}
+
+main div:nth-child(2) div:nth-child(2) {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 440px;
+    border-radius: 10px;
+    box-shadow: 0px 5px #db6667;
+}
+
+main div:nth-child(2) div:nth-child(2) form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+main div:nth-child(2) div:nth-child(2) form .icon-1 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 20px;
+    top: 15px;
+    opacity: 0%;
+}
+
+main div:nth-child(2) div:nth-child(2) form .icon-2 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 20px;
+    top: 85px;
+    opacity: 0%;
+}
+
+main div:nth-child(2) div:nth-child(2) form .icon-3 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 20px;
+    top: 160px;
+    opacity: 0%;
+}
+
+
+main div:nth-child(2) div:nth-child(2) form .icon-4 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 20px;
+    top: 230px;
+    opacity: 0%;
+}
+
+main div:nth-child(2) div:nth-child(2) form input[type=text],
+main div:nth-child(2) div:nth-child(2) form input[type=email],
+main div:nth-child(2) div:nth-child(2) form input[type=password] {
+    margin-bottom: 20px;
+    padding: 15px 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+}
+
+main div:nth-child(2) div:nth-child(2) form input[type=text]:focus {
+    border: 1px solid #88839c;
+    outline: none;
+}
+
+main div:nth-child(2) div:nth-child(2) form input[type=submit] {
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    padding: 13px 0px;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0px 5px #69b999;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-size: 0.9em;
+}
+
+main div:nth-child(2) div:nth-child(2) form input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #77e2b4;
+}
+
+main div:nth-child(2) div:nth-child(2) div {
+    font-size: 0.6em;
+    height: 0px;
+    padding-top: 25px;
+    color: #d1cfda;
+    font-weight: 600;
+    flex-direction: row;
+    gap: 4px;
+    box-shadow: 0px 0px;
+}
+
+main div:nth-child(2) div:nth-child(2) div span {
+    color: #f68e93;
+}
